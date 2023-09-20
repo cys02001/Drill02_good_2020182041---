@@ -8,11 +8,15 @@ grass = load_image('grass.png')
 character = load_image('character.png')
 
 def run_circle():
-    printf('CIRCLE')
+    print('CIRCLE')
+    clear_canvas_now()
+    grass.draw_now(400,30)
+    character.draw_now(400,90)
+    delay(1)
     pass
 
 def run_rectangle():
-    printf('RECTANGLE')
+    print('RECTANGLE')
     pass
 
 
