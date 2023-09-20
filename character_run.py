@@ -1,4 +1,5 @@
 import math
+
 from pico2d import *
 
 open_canvas()
@@ -6,6 +7,18 @@ open_canvas()
 grass = load_image('grass.png')
 character = load_image('character.png')
 
-#fill_here
+def run_circle():
+    printf('CIRCLE')
+    pass
+
+def run_rectangle():
+    printf('RECTANGLE')
+    pass
+
+
+while True:
+    run_circle()
+    run_rectangle()
+    break
 
 close_canvas
